@@ -1,0 +1,10 @@
+spring:
+  config:
+    import: "optional:configserver:"
+    
+  application:
+    name: setuplink-sprint-boot-poc
+
+  cloud:
+    config:
+      uri: https://setuplink-config-server.herokuapp.com  
